@@ -14,20 +14,20 @@ export default function Cafe() {
 
 const styles = StyleSheet.create({
   container:{
-    width:"60%",
-    height:"40%",
+    width:"70%",
+    height:"35%",
   },
   stretch: {
     width: "100%",
     height: "100%",
-    borderTopLeftRadius: 50,
-    borderTopRightRadius: 50
+    borderTopLeftRadius: 40,
+    borderTopRightRadius: 40
   },
   mocha: {
     textAlign: 'center',
     backgroundColor: 'green',
-    borderBottomLeftRadius: 50,
-    borderBottomRightRadius: 50,
+    borderBottomLeftRadius: 40,
+    borderBottomRightRadius: 40,
     fontWeight: 'bold',
     height: 30,
     color: 'white',

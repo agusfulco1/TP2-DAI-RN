@@ -1,9 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 import { Dimensions } from 'react-native';
 import Cafe from './Cafe'
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 
 const windowWidth = Dimensions.get('window').width;
@@ -16,8 +15,8 @@ export default function App() {
         style={styles.stretc}
         source={require('./logo.png')}
       />
-      <Text style={styles.text}>Probá nuestro café</Text>
-      <Cafe/>
+      <Text style={styles.text}>Proba nuestro café</Text>
+      <Cafe />
     </View>
   );
 }
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
   },
   stretc: {
     width: windowWidth,
-    height: "50%"
+    height: "30%"
   },
   text: {
     fontWeight: 'bold'
